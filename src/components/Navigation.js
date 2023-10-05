@@ -11,7 +11,7 @@ const Navigation = () => {
             </div>
             <div className="navbar-menu">
                 <div className="navbar-start">
-                    <Link className="navbar-item" to = "/about">
+                    <Link className="navbar-item" to = "/">
                         About Me
                     </Link>
                     <Link className="navbar-item" to="/portfolio">
