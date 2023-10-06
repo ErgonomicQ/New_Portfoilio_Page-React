@@ -1,4 +1,4 @@
-import {React, useState} from 'react';
+import {React, useState} from React;
 
 
 const Contact = () => {
@@ -45,7 +45,7 @@ const Contact = () => {
                         required
                       />
                     </div>
-                    {formError.name && <p className="help is-danger">{formError.name}</p>}
+                    {formErrors.name && <p className="help is-danger">{formError.name}</p>}
                   </div>
     
                   <div className="field">
@@ -61,7 +61,7 @@ const Contact = () => {
                         required
                       />
                     </div>
-                    {formError.email && <p className="help is-danger">{formError.email}</p>}
+                    {formErrors.email && <p className="help is-danger">{formError.email}</p>}
                   </div>
     
                   <div className="field">

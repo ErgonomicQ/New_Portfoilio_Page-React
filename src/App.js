@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import 'bulma/css/bulma.min.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './components/Header';
 import Navigation from './components/Navigation';
 import AboutMe from './components/AboutMe';
@@ -15,13 +15,12 @@ const App = () => {
     <Router>
       <Header />
       <Navigation />
-      <Routes>
-        <Route path="/" element={<AboutMe />} />
-        <Route path="/about" element={<AboutMe />} />
-        <Route path="/resume" element={<Resume />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-      </Routes>
+      <Switch>
+        <Route path="/" exact component={AboutMe} />
+        <Route path="/portfolio" component={Portfolio} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/resume" component={Resume} />
+      </Switch>
       <Footer />
     </Router>
   );
