@@ -9,7 +9,7 @@ const Portfolio = () => {
       description: 'A refactor of a book search site. Routes changed to using GraphQL.',
       demoLink: 'https://fullstack-mern-book-search-59f51ffcd5d2.herokuapp.com/',
       repoLink: 'https://github.com/ErgonomicQ/Book_Search_Engine_MERN',
-      image: './src/assets/book_search.png', 
+      image: 'src/assets/book_search.png', 
     },
     {
       id: 2,
@@ -17,7 +17,7 @@ const Portfolio = () => {
       description: 'A social media website for Pets.',
       demoLink: 'https://social-whiskers-ad907fdaaf47.herokuapp.com',
       repoLink: 'https://github.com/edwinalban/Social-Whiskers-Pet-Adoption',
-      image: './src/assets/social_whiskers.png', 
+      image: 'src/assets/social_whiskers.png', 
     },
     {
         id: 3,
@@ -25,7 +25,7 @@ const Portfolio = () => {
         description: 'A social media website for Pets, a work in progress.',
         demoLink: 'Coming Soon',
         repoLink: 'https://github.com/MerelJac/fitness-application',
-        image: './src/assets/GitFit.png', 
+        image: 'src/assets/GitFit.png', 
       },
       {
         id: 4,
@@ -33,7 +33,7 @@ const Portfolio = () => {
         description: 'A PWA application that is a test text editor.',
         demoLink: 'https://pwa-app-module19-29ed7ef5b346.herokuapp.com/',
         repoLink: 'https://github.com/ErgonomicQ/PWA_Refactor_CodeEditor',
-        image: './src/assets/text_editor.png', 
+        image: 'src/assets/text_editor.png', 
       },
       {
         id: 5,
@@ -41,7 +41,7 @@ const Portfolio = () => {
         description: 'An example of a MySQL employee tracker.',
         demoLink: 'https://www.youtube.com/watch?v=VYh6Hp8tJgE',
         repoLink: 'https://github.com/ErgonomicQ/Employee_Tracker_mysql',
-        image: './src/assets/employee_tracker.png', 
+        image: 'src/assets/employee_tracker.png', 
       },
       {
         id: 6,
@@ -49,7 +49,7 @@ const Portfolio = () => {
         description: 'A basic SVG Logo Maker.',
         demoLink: 'https://www.youtube.com/watch?v=5M-ai6QugVQ',
         repoLink: 'https://github.com/ErgonomicQ/SVG_Logo-Maker',
-        image: './src/assets/SVG_logo.png', 
+        image: 'src/assets/SVG_logo.png', 
       },
     // Add more projects as needed
   ];
