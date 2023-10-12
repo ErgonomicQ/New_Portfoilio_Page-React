@@ -9,7 +9,7 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
-import './CustomStyles.css';
+
 const App = () => {
   return (
     <Router basename="/New_Portfoilio_Page-React">
