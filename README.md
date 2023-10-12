@@ -26,9 +26,11 @@
  This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
   
   ## Contributing
-  The following documentation for bulma and React can be found below.
-  [React](https://react.dev/)
-  [bulma Style Documentaton](https://bulma.io/documentation/overview/start/)
+  The following documentation for bulma and React can be found below: 
+
+  [React](https://react.dev/)  
+
+  [bulma Style Documentaton](https://bulma.io/documentation/overview/start/)  
   
   ## Questions
   if you have any questions, you can reach me @ [ergonomicQ](https://github.com/ergonomicQ) or shoot me email at c.s.cooke89@gmail.com.
