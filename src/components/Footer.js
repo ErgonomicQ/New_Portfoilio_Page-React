@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container">
         <div className="content has-text-centered">
           <p>
-            <strong>My Portfolio</strong> by Cody Cooke. The source code is licensed under{' '}
+            <strong>Portfolio</strong> by Cody Cooke. The source code is licensed under{' '}
             <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer">
               MIT
             </a>
