@@ -7,7 +7,7 @@ const Navigation = () => {
     <nav className="navbar" role="navigation" aria-label="main-navigation">
       <div className="navbar-end">
         <div className="navbar-item">
-          <Link className="navbar-link" to="/">
+          <Link className="navbar-link" to="/aboutme">
             About Me
           </Link>
         </div>

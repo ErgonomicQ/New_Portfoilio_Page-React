@@ -11,12 +11,12 @@ import Footer from './components/Footer';
 
 const App = () => {
   return (
-    <Router basename="/New_Portfoilio_Page-React">
+    <Router basename="/">
 
       <Header />
       <Navigation />
       <Routes>
-        <Route path="/" element={<AboutMe />} />
+        <Route path="/aboutme" element={<AboutMe />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
