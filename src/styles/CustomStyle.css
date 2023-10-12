@@ -22,7 +22,13 @@ p{
     font-weight: bold;
 }
 
-
+img .profile{
+    
+        width: 500px; /* Adjust the width as needed */
+        height: 500px; /* Adjust the height as needed */
+        border-radius: 50%; /* To make the image circular */
+    
+}
 
 body {
     background: linear-gradient(to  right, #A8B4A5, #725D68);
