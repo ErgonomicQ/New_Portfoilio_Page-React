@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import 'bulma/css/bulma.min.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Navigation from './components/Navigation';
