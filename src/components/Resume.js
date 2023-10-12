@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Resume = () => {
-    const dropboxResumeLink = 'https://www.dropbox.com/scl/fi/lh35i4hzhvjqbexqlnchg/Cody-Cooke-resume.pdf?rlkey=86hmo2tghk06c7kp60my41cue&dl=0;'
+    const dropboxResumeLink = 'https://www.dropbox.com/scl/fi/lh35i4hzhvjqbexqlnchg/Cody-Cooke-resume.pdf?rlkey=86hmo2tghk06c7kp60my41cue&dl=1'
   
     return (
       <section className="section">

@@ -1,5 +1,5 @@
 import React from 'react';
-import Navigation from './Navigation'; 
+
 
 const Header = () => {
   return (
@@ -10,7 +10,7 @@ const Header = () => {
           <h1 className="title">Your Name</h1>
         </div>
         <div className="right-content">
-          <Navigation /> 
+           
         </div>
       </div>
     </header>
