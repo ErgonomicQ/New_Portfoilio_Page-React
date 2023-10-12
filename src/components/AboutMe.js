@@ -1,6 +1,7 @@
 import React from "react";
 import ProfilePicture from "./ProfliePicture"; // Import your ProfilePicture component
 import '../styles/CustomStyle.css'
+import './ProfilePic.css'
 const AboutMe = () => {
     return (
         <section id="about-me" className="section">
