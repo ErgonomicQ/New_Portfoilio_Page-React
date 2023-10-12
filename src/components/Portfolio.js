@@ -28,7 +28,7 @@ const Portfolio = () => {
     {
         id: 3,
         title: 'GetFit',
-        description: 'A social media website for Pets, a work in progress.',
+        description: 'User Workout application, work in progress.',
         demoLink: 'Coming Soon',
         repoLink: 'https://github.com/MerelJac/fitness-application',
         image: getFit, 
