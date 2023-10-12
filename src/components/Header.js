@@ -1,5 +1,6 @@
 import React from 'react';
 import bannerImage  from '../assets/banner.png'
+import './BannerStyle.css'
 
 const Header = () => {
   return (

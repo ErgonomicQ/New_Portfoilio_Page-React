@@ -6,7 +6,7 @@ import getFit from '../assets/GitFit.png';
 import justText from '../assets/text_editor.png';
 import employeeTrack from '../assets/employee_tracker.png';
 import svgImages from '../assets/SVG_logo.png';
-
+import '../styles/CustomStyle.css'
 const Portfolio = () => {
   const projects = [
     {
