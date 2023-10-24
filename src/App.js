@@ -16,6 +16,7 @@ const App = () => {
       <Header />
       <Navigation />
       <Routes>
+        <Route path="/New_Portfoilio_Page-React" element={<AboutMe/>} index/>
         <Route path="/aboutme" element={<AboutMe />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
